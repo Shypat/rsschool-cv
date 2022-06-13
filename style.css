@@ -1,11 +1,86 @@
-.name {
-    width: 100px;
-    height: 250px;
-    background-color: green;
+body {
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 960px;
+    margin: auto;
 }
 
-.menu {
-    width: 500px;
-    height: 500px;
-    background-color: yellow;
+header {
+    background-color: white;
+    height: auto;
 }
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    width: 250px;
+    margin-right: 10px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+.button {
+    border: solid 3px black;
+    padding: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 16pt;
+    color: white;
+    background-color: black;
+}
+
+.myfooter {
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    height: 60px;
+
+}
+
+.mygithub {
+    font-size: 20pt;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.gitimage {
+    width: 25px;
+    margin-top: 15px;
+}
+
+.rslogo {
+    width: 100px;
+    margin-top: 10px;
+}
+.year {
+    font-size: 24px;
+    margin-top: 15px;
+    color: black;
+   }
+   pre, code{
+    background-color: #fafaff;
+    border: 1px solid #c6c4f4;
+    border-radius: 4px;
+    color: #3632ad;
+    font-family: "Courier New", "Courier", monospace;
+   }
+   pre code {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+   }
